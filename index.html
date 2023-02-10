@@ -14,7 +14,7 @@
 </head>
 <body>
     <h1 class="hidden">DR Nut</h1>
-    <div id="container">
+    <div class="container">
 
         <header id="main-header" class="grid">
             <div id="header-logo">
@@ -24,8 +24,9 @@
                 <h2 class="hidden">Main Navigation</h2>
                 <ul>
                     <li> <a href="index.html" class="active">Home</a></li>
-                    <li> <a href="aboutus.html">About Us</a></li>
                     <li> <a href="products.html">Products</a></li>
+                    <li> <a href="gallery.html">Gallery</a></li>
+                    <li> <a href="contact.html">History</a></li>
                     <li> <a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -36,53 +37,92 @@
         </header>
 
         <main>
-
-            <section id="hero" class="grid">
+            
+            <section class="grid" id="hero-section">
                 <h2 class="hidden">Hero with the product image</h2>
-                <div id="hero-image" class="box-color1">
-                    <div id="hero-product" class="box-color2">
-                        <!-- <img src="img/products.png" alt="Miss Kiwi Drinks" id="img-hero"> -->
-                    </div>
+                <div id="hero-photo">
+                    <img src="img/hero_image.png" alt="Miss Kiwi Drinks" id="img-hero">
                 </div>
+
             </section>
 
-            <section id="info-box" class="grid" class="box-color">
+            <section id="info-box" class="grid">
+                <h2>Products</h2>
+                <div id="products">
                 <div id="info-box1" class="box-color2">
+                    <img src="img/product1.png" alt="Dark Beer" class="info-photo">
+                    <button class="button-product">Explore More</button>
                 </div>
                 <div id="info-box2" class="box-color2">
+                    <img src="img/product2.png" alt="Traditional Beer" class="info-photo">
+                    <button class="button-product">Explore More</button>
                 </div>
                 <div id="info-box3" class="box-color2">
+                    <img src="img/product3.png" alt="Light Beer" class="info-photo">
+                    <button class="button-product">Explore More</button>
                 </div>
+            </div>
             </section>
 
+            <section class="grid" id="video-box">
+                <h2 class="hidden">Video of product</h2>
+                <img src="img/Component 10 – 2.png" alt="play icon">
+            </section>
+
+            <section class="grid" id="history">
+                <h2>History</h2>
+                    <div id="history-photo">
+                        <img src="img/history1.png" alt="history book">
+                    </div>
+                    <div id="history-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod laoreet nibh ut luctus. Vestibulum vel massa felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam euismod metus sed risus molestie gravida. Curabitur finibus nisi ac felis accumsan condimentum. Quisque egestas libero odio, quis placerat quam vehicula eget.<p>
+                            <button class="button-history">Read More</button>
+                    </div>
+            </section>
 
         </main>
     </div>
 	
-    <div id="container">
-        <footer class="grid">
-            <div class="box-color" id="footer-box">
-            <nav id="footer-nav" class="box-color">
-                <h2 class="hidden">Footer Navigation</h2>
-                <ul>
-                    <li> <a href="index.html">Home</a></li>
-                    <li> <a href="aboutus.html">About Us</a></li>
-                    <li> <a href="products.html">Products</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-                <form action="register.php" id="mainform-newsletter" method="post">
-                    <h3 class="hidden">Newsletter</h3>
-                    <label for="email" class="hidden">Email Address: </label>
-                    <input type="email" id="email" name="email" placeholder="Email Address">
-                    <button class="button-web" id="button-footer">SEND</button>
-                </form>
-            </div>        
-            <div id="social-media-footer">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
-            </div>
+        <div class="container">
+            <footer>
+                <div id="footer-box" class="grid">
+                    <nav id="footer-nav">
+                        <h2 class="hidden">Footer Navigation</h2>
+                        <ul>
+                            <li> <a href="index.html">Home</a></li>
+                            <li> <a href="products.html">Products</a></li>
+                            <li> <a href="gallery.html">Gallery</a></li>
+                            <li> <a href="contact.html">History</a></li>
+                            <li> <a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <section id="social-media">
+                        <h2 class="hidden">Social Media</h2>
+                            <p>STAY IN TOUCH</p>
+                            <img src="img/Instagram.png" alt="Instagram icon">
+                            <img src="img/facebook.png" alt="Facebook icon">
+                            <img src="img/whatsapp.png" alt="Whatsapp icon">
+                    </section>
+                    <form action="register.php" id="mainform-newsletter" method="post">
+                        <h2>Newsletter</h2>
+                        <label for="email" class="hidden">Email Address: </label>
+                        <input type="email" id="email" name="email" placeholder="Your email here">
+                        <button class="button-web" id="button-footer">SEND</button>
+                    </form>
+                    <nav id="copyright">
+                        <h2 class="hidden">Website Copyright</h2>
+                        <ul>
+                            <li> <a href="terms.html">Terms and Conditions</a></li>
+                            <li> <a href="policy.html">Privacy Policy</a></li>
+                            <li> <a href="copyright.html">&#169; 2023</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+            </footer>
+        </div>
+
+            <!-- <div class="box-color" id="footer-box">
+
             <nav id="copyright" class="box-color">
                 <h2 class="hidden">Website Copyright</h2>
                 <ul>
@@ -90,9 +130,8 @@
                     <li> <a href="aboutus.html">Privacy Policy</a></li>
                     <li> <a href="products.html">&#169; 2023</a></li>
                 </ul>
-            </nav>
-        </footer>
-    </div>
+            </nav> -->
+
 
 
     <script src="js/main.js"></script>    
