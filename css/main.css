@@ -101,20 +101,29 @@ a {
  }
 
  #header-icons{
-    height: 70px;
-    width: 170px;
     grid-column: 11/-1;
     display: flex;
     justify-content: flex-end;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
- #header-icons a i{
-    color: black;
-    padding-top: 25px;
-    padding-left: 15px;
+#header-icons img{
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
 }
 
+#header-icons img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+
+
+#header-nav li a.active {
+    padding-bottom: 8px;
+    color: #333;
+ }
 
 /* 4. ---Main Hero Image--- */
 
@@ -168,10 +177,19 @@ a {
     background-color: #06113C;
 }
 
+
+
 .info-photo{
     width: 328px;
     height: 451px;
+    transition: 1s;
 }
+
+.info-photo:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
 
 .button-product{
     width: 173px;
@@ -307,6 +325,11 @@ a {
     width: 48px;
     height: 48px;
  }
+
+ #social-media img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
 
 
  
