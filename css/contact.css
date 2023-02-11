@@ -1,0 +1,86 @@
+/* 1. ---Contact--- */
+
+
+
+
+#contact{
+    height: 811px;
+    grid-column: 1/-1;
+    background-color: #E09026;
+}
+
+
+#contact-form{
+    grid-row: 2/3;
+    grid-column: 1/7;
+    width: 459px;
+    height: 539px;
+    background-color: #AE2929;
+    border-color: #707070;
+}
+
+#contact-form h3{
+    text-align: center;
+    color: #E09026;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.contact-input{
+    margin-top: 15px;
+}
+
+.contact-input label{
+    margin-left: 50px;
+    color: #E09026;
+    font-size: 15px;
+}
+
+.contact-input input{
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    width: 455px;
+    height: 40px;
+    background-color: #AE2929;
+    border-color: #707070;
+    margin-top: 5px;
+}
+
+
+.button-history{
+    width: 173px;
+    height: 60px;
+    background-color: #E09026;
+    color: #AE2929;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+#contact-photo{
+    grid-row: 2/3;
+    grid-column: 7/-1;
+    width: 459px;
+    height: 539px;
+}
+
+#contact-photo img{
+    width: 459px;
+    height: 539px;
+}
+
+
+#button-box{
+    width: 41px;
+    height: 20px;
+}
+
+#button-contact{
+    font-size: 15px;
+    color: #E09026;
+}

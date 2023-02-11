@@ -10,6 +10,7 @@
 <script src="https://kit.fontawesome.com/2436fc0b94.js" crossorigin="anonymous"></script>
 <link href="css/reset.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
+<link href="css/contact.css" rel="stylesheet">
 </head>
 <body>
     <h1 class="hidden">DR Nut</h1>
@@ -22,62 +23,46 @@
             <nav id="header-nav">
                 <h2 class="hidden">Main Navigation</h2>
                 <ul>
-                    <li> <a href="index.html" class="active">Home</a></li>
+                    <li> <a href="index.html">Home</a></li>
                     <li> <a href="products.html">Products</a></li>
                     <li> <a href="gallery.html">Gallery</a></li>
                     <li> <a href="history.html">History</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
+                    <li> <a href="contact.html" class="active">Contact</a></li>
                 </ul>
             </nav>
             <div id="header-icons">
                 <img src="img/search.png" alt="Search icon">
                 <img src="img/trolley-cart.png" alt="Shop icon">
-                <!-- <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href=""><i class="fa-solid fa-cart-shopping"></i></a> -->
             </div>
         </header>
 
         <main>
-            
-            <section class="grid" id="hero-section">
-                <h2 class="hidden">Hero with the product image</h2>
-                <div id="hero-photo">
-                    <img src="img/hero_image.png" alt="Miss Kiwi Drinks" id="img-hero">
-                </div>
-
-            </section>
-
-            <section id="info-box" class="grid">
-                <h2>Products</h2>
-                <div id="products">
-                <div id="info-box1" class="box-color2">
-                    <img src="img/product1.png" alt="Dark Beer" class="info-photo">
-                    <button class="button-product">Explore More</button>
-                </div>
-                <div id="info-box2" class="box-color2">
-                    <img src="img/product2.png" alt="Traditional Beer" class="info-photo">
-                    <button class="button-product">Explore More</button>
-                </div>
-                <div id="info-box3" class="box-color2">
-                    <img src="img/product3.png" alt="Light Beer" class="info-photo">
-                    <button class="button-product">Explore More</button>
-                </div>
-            </div>
-            </section>
-
-            <section class="grid" id="video-box">
-                <h2 class="hidden">Video of product</h2>
-                <img src="img/video.png" alt="play icon">
-            </section>
-
-            <section class="grid" id="history">
-                <h2>History</h2>
-                    <div id="history-photo">
-                        <img src="img/history1.png" alt="history book">
+            <section class="grid" id="contact">
+                <h2 class="hidden">Contact</h2>
+                    <div id="contact-form">
+                        <h3>Get in touch</h3>
+                        <div class="contact-input">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                        </div>
+                        <div class="contact-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                        </div>
+                        <div class="contact-input">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+                        </div>
+                        <div class="contact-input">
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="message">
+                        </div>
+                        <div id="button-box">
+                            <button id="button-contact">Send</button>
+                        </div>
                     </div>
-                    <div id="history-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod laoreet nibh ut luctus. Vestibulum vel massa felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam euismod metus sed risus molestie gravida. Curabitur finibus nisi ac felis accumsan condimentum. Quisque egestas libero odio, quis placerat quam vehicula eget.<p>
-                            <button class="button-history">Read More</button>
+                    <div id="contact-photo">
+                        <img src="img/bottlebeers.png" alt="Bootle Beers in a sunset">
                     </div>
             </section>
 
@@ -93,7 +78,7 @@
                             <li> <a href="index.html">Home</a></li>
                             <li> <a href="products.html">Products</a></li>
                             <li> <a href="gallery.html">Gallery</a></li>
-                            <li> <a href="history.html">History</a></li>
+                            <li> <a href="contact.html">History</a></li>
                             <li> <a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
