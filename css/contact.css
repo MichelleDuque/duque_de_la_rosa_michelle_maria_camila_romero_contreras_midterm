@@ -32,7 +32,7 @@
 }
 
 .contact-input label{
-    margin-left: 50px;
+    margin-left: 30px;
     color: #E09026;
     font-size: 15px;
 }
@@ -41,24 +41,17 @@
     border-right-width: 0px;
     border-top-width: 0px;
     border-left-width: 0px;
-    width: 455px;
+    width: 400px;
     height: 40px;
-    background-color: #AE2929;
+    /* background-color: #AE2929; */
     border-color: #707070;
     margin-top: 5px;
+    color: #000000;
+    margin-left: 30px;
 }
 
-
-.button-history{
-    width: 173px;
-    height: 60px;
-    background-color: #E09026;
-    color: #AE2929;
-    font-size: 20px;
-    border: none;
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
+.contact-input label{
+    border: none
 }
 
 
@@ -74,13 +67,22 @@
     height: 539px;
 }
 
+.contact-input #message{
+    height: 100px;
+}
 
 #button-box{
     width: 41px;
     height: 20px;
+    position: relative;
 }
 
 #button-contact{
     font-size: 15px;
-    color: #E09026;
+    color: #AE2929;
+    position:absolute; 
+    top: 30px;
+    left:370px;
+    background-color: #E09026;
+    border: none;
 }
