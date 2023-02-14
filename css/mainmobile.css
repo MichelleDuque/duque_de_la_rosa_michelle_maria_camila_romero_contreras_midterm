@@ -11,7 +11,7 @@ img, video, object{
 .container{
     max-width: 375px;
     margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif, Verdana;
     font-size: 20px;
     border: solid 1px #333;
 }
@@ -385,7 +385,7 @@ a {
  #copyright li {
     display:inline;
     font-size: 14px;
-    margin-right: 9.7px;
+    margin-right: 8px;
  }
 
 

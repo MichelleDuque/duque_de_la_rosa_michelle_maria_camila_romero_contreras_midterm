@@ -11,7 +11,7 @@ img, video, object{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif, Verdana;
     font-size: 20px;
     border: solid 1px #333;
 }
@@ -86,7 +86,7 @@ a {
  #header-nav li {
     display:inline;
     margin-right: 45px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif, Verdana;
  }
  
  #header-nav li:last-child {
@@ -370,7 +370,7 @@ a {
     width: 485px;
     height: 29px;
     grid-column: 6/-1;
-    grid-row: 3/3;  
+    grid-row: 3/4;  
     margin-left: 30px;
     margin-bottom: 30px;
  }
@@ -378,7 +378,7 @@ a {
  #copyright li {
     display:inline;
     font-size: 20px;
-    margin-right: 32px;
+    margin-right: 30px;
  }
 
  #copyright li a {
