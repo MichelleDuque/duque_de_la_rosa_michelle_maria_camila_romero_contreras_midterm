@@ -372,6 +372,10 @@ a {
     border: none;
  }
 
+ #mainform-newsletter button:hover {
+    background-color: #498281;
+ }
+
  #copyright{
     width: 485px;
     height: 29px;
