@@ -87,6 +87,10 @@
     border: none;
 }
 
+#button-contact:hover{
+    background-color: #b98e57;
+}
+
 #contact-photo{
     grid-row: 1/2;
     grid-column: 1/-1;
