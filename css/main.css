@@ -203,6 +203,10 @@ a {
     font-size: 20px;
 }
 
+.button-product:hover {
+    background-color: #bd7171;
+}
+
 /* 8. ---Video--- */
 
 #video-box{
@@ -280,7 +284,9 @@ a {
     margin-top: 20px;
 }
 
-
+.button-history:hover {
+    background-color: #c19a67;
+}
 
 /* 8. ---Footer--- */
 
@@ -364,6 +370,10 @@ a {
     height: 53px;
     background-color: #208281;
     border: none;
+ }
+
+ #mainform-newsletter button:hover {
+    background-color: #498281;
  }
 
  #copyright{
