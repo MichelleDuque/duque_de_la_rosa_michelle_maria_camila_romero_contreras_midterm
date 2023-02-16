@@ -205,6 +205,10 @@ a {
     margin-top: 50px;
 }
 
+.button-product:hover {
+    background-color: #bf5c5c;
+}
+
 /* 8. ---Video--- */
 
 #video-box{
@@ -276,6 +280,10 @@ a {
     display: block;
     margin: 0 auto;
     margin-top: 50px;
+}
+
+.button-history:hover {
+    background-color: #e1ae6b;
 }
 
 

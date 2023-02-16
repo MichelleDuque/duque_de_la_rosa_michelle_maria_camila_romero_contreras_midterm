@@ -203,6 +203,10 @@ a {
     font-size: 20px;
 }
 
+.button-product:hover {
+    background-color: #bf5c5c;
+}
+
 /* 8. ---Video--- */
 
 #video-box{
@@ -280,7 +284,9 @@ a {
     margin-top: 20px;
 }
 
-
+.button-history:hover {
+    background-color: #e1ae6b;
+}
 
 /* 8. ---Footer--- */
 
