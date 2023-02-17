@@ -1,4 +1,14 @@
 /* 1. ---General Styles--- */
+/* 2. ---Grid--- */
+/* 3. ---Header--- */
+/* 4. ---Main Hero Image--- */
+/* 5. ---Info-Box--- */
+/* 6. ---Video--- */
+/* 7. ---History--- */
+/* 8. ---Footer--- */
+
+
+/* 1. ---General Styles--- */
 
 img, video, object{
     max-width: 100%;
@@ -207,7 +217,7 @@ a {
     background-color: #bf5c5c;
 }
 
-/* 8. ---Video--- */
+/* 6. ---Video--- */
 
 #video-box{
     height: 643px;
@@ -218,7 +228,7 @@ a {
     justify-content: center;  
 }
 
-/* 8. ---History--- */
+/* 7. ---History--- */
 
 #history{
     height: 894px;
